@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+    --bg-color: #202020;
+    --second-bg-color: #2A2A2A;
+    --text-color: #fff;
+    --second-text-color: #ccc;
+    --main-color: #2323f3;
+    --h2-font: 2rem;
+    --p-font: 1.15rem;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--second-bg-color); /* Cor de fundo da trilha */
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--main-color);
+}
+
+body {
+    background: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--h2-font);
+    color: var(--text-color);
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--p-font);
+    color: var(--second-text-color);
+}
+
+span {
+    color: var(--main-color);
+}
+
+.text-white {
+    color: var(--text-color);
+}
+
+.box-shadow {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05),
+                0 4px 8px 0 rgba(0, 0, 0, .05); 
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-p-sm {
+    font-size: 15px;
+}
+
+.nav-item a:hover {
+    color: var(--bs-primary);
+}
+
+.nav-item a {
+    color: #f5f2f2;
+}
+
+#home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.one {
+    display: inline-block;
+    height: 32px;
+    padding: 0 15px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: var(--bs-primary);
+    color: #fff;
+}
+
+.two {
+    font-size: 20px;
+    color: var(--second-text-color);
+}
+
+.bg-color {
+    background-color: var(--bg-color);
+}
+
+.second-bg-color {
+    background-color: var(--second-bg-color);
+}
+
+.btn-socials {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.socials a {
+    text-decoration: none;
+}
+
+.btn-socials span i {
+    padding: 8px;
+    background: var(--main-color);
+    color: var(--text-color);
+    font-size: 35px;
+    border-radius: 20%;
+    transition: all .45s ease;
+}
+
+.btn-socials span i:hover {
+    transform: scale(0.9);
+}
+
+.btn-play-text {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-play span i {
+    padding: 8px;
+    background: var(--main-color);
+    color: var(--text-color);
+    font-size: 35px;
+    border-radius: 50%;
+    transition: all .45s ease;
+    margin-right: 15px;
+}
+
+.btn-play span i:hover {
+    transform: scale(0.9);
+}
+
+#about-image {
+    max-width: 430px;
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: var(--main-color) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 510px;
+}
+
+.skills-list li {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    width: 130px;
+    padding: 15px 30px;
+    background-color: #dfdfdf;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1.5px #9c9c9c;
+    transition: all .45s ease;
+}
+
+.skills-list li:hover {
+    transform: translateY(-2px);
+}
+
+.link-external {
+    width: 60px;
+}
+
+.card {
+    transition: all .45s ease;
+}
+
+.card img {
+    cursor: pointer;
+    max-height: 145px;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+footer {
+    color: var(--second-text-color);
+    background-color: var(--second-bg-color);
+    text-align: center;
+    padding: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    transition: all .45s ease;
+}
+
+.navbar.active {
+    background-color: black;
+}
+
+#btnTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: var(--bs-primary);
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+    font-size: 16px;
+}
+
+#btnTop:hover {
+    opacity: 0.8;
+}
+
+
+@media screen and (max-height: 920px) {
+    #navbar {
+        background-color: black;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #about-image {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #home-subtitle {
+        font-size: 14.5px;
+    }
+}
