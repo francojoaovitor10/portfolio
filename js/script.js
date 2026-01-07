@@ -155,7 +155,7 @@ function translatePage(language) {
     });
 
     document.documentElement.lang = language;
-    languageToggle.textContent = language === "pt-br" ? "ENGLISH" : "PORTUGUESE";
+    languageToggle.textContent = language === "pt-br" ? "TRADUZIR PARA O INGLES" : "TRANSLATE TO PORTUGUESE";
 }
 
 languageToggle.addEventListener("click", () => {
