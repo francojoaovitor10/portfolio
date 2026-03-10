@@ -82,10 +82,10 @@ const translations = {
         exp_title: "EXPERIÊNCIAS",
         exp_subtitle: "Minha trajetória profissional",
         exp_heineken_desc:
-            "Atuação com análise de dados voltada ao suporte de decisões estratégicas, desenvolvimento de relatórios em Power BI, tratamento de dados em Excel e acompanhamento de indicadores de desempenho, com envolvimento em projetos de análise de mercado, acompanhamento de vendas e análise de desempenho de produtos.",
+            "Atuo na área de Business Intelligence, aplicando técnicas de análise, manipulação e visualização de dados para apoiar a tomada de decisão baseada em dados. Possuo experiência trabalhando com dados comerciais, de marketing e logisticos, transformando grandes volumes de informação em indicadores estratégicos e insights acionáveis para subsidiar a tomada de decisão. No processo de modelagem, utilizo SQL para extração, consulta, manipulação e transformação de dados em bancos relacionais, realizando filtragens, agregações, joins e estruturação de datasets voltados para análise. Esse processo permite garantir consistência, qualidade e organização dos dados antes da etapa de visualização. Para exploração de dados, utilizo Excel, aplicando recursos como funções analíticas e organização de bases, facilitando a identificação de padrões e oportunidades de melhoria nos processos. Na etapa de visualização e entrega de valor, utilizo Power BI para desenvolver dashboards interativos e relatórios analíticos, estruturando KPIs, métricas de desempenho e análises comparativas. Os painéis são projetados para proporcionar navegação intuitiva, análise dinâmica e acompanhamento de indicadores em tempo real, permitindo que gestores e equipes tomem decisões mais rápidas e acertivas.",
 
-        skills_title: "HABILIDADES",
-        skills_subtitle: "No que sou bom",
+        skills_title: "HARD SKILLS",
+        skills_subtitle: "Ferramentas dominadas",
 
         projects_title: "PROJETOS",
         proj_tit1: "Análise de Vendas",
