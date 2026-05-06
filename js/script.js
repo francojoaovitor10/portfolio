@@ -123,7 +123,7 @@ const translations = {
         exp_title: "EXPERIENCE",
         exp_subtitle: "My professional journey",
         exp_heineken_desc:
-            "Worked with data analysis to support strategic decision-making, developing Power BI reports, handling data in Excel, monitoring performance indicators, and participating in market analysis, sales tracking, and product performance analysis projects.",
+            "I work in the Business Intelligence field, applying data analysis, manipulation, and visualization techniques to support data-driven decision-making. I have experience working with commercial, marketing, and logistics data, transforming large volumes of information into strategic indicators and actionable insights to support decision-making. In the modeling process, I use SQL for data extraction, querying, manipulation, and transformation in relational databases, performing filtering, aggregations, joins, and structuring of datasets for analysis. This process ensures data consistency, quality, and organization before the visualization stage. For data exploration, I use Excel, applying features such as analytical functions and database organization, facilitating the identification of patterns and opportunities for process improvement. In the visualization and value delivery stage, I use Power BI to develop interactive dashboards and analytical reports, structuring KPIs, performance metrics, and comparative analyses. The dashboards are designed to provide intuitive navigation, dynamic analysis, and real-time indicator monitoring, allowing managers and teams to make faster and more accurate decisions.",
 
         skills_title: "SKILLS",
         skills_subtitle: "What I'm good at",
