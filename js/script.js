@@ -117,6 +117,10 @@ const translations = {
 
         skills_title: "HARD SKILLS",
         skills_subtitle: "Ferramentas dominadas",
+        skills_group_bi: "Business Intelligence",
+        skills_group_db: "Bancos de Dados",
+        skills_group_py: "Python e Análise de Dados",
+        skills_group_web: "Desenvolvimento Web",
 
         projects_title: "PROJETOS",
         proj_tit1: "Análise de Vendas",
@@ -187,8 +191,12 @@ const translations = {
         exp_heineken_r3_label: "Accessible indicators",
         exp_heineken_r3: "Power BI reports that centralized sales indicators and made information easier to access for business areas.",
 
-        skills_title: "SKILLS",
-        skills_subtitle: "What I'm good at",
+        skills_title: "HARD SKILLS",
+        skills_subtitle: "Tools I master",
+        skills_group_bi: "Business Intelligence",
+        skills_group_db: "Databases",
+        skills_group_py: "Python & Data Analysis",
+        skills_group_web: "Web Development",
 
         projects_title: "PROJECTS",
         proj_tit1: "Sales Analysis",
