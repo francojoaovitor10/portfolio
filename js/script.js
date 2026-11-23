@@ -130,7 +130,7 @@ const translations = {
         proj_tit3: "Análise Eletronic Company",
         proj_tex3: "Varejo de eletrônicos: faturamento, lucro, margem, clientes e taxa de devolução por produto, loja e país.",
         proj_tit4: "Análise Mineiradora",
-        proj_tex4: "Essa análise tem como objetivo evidenciar os resultados de cada minério em distintas regiões do Brasil e seus respectivos custos e preços.",
+        proj_tex4: "Custo, faturamento e lucro de 14 minérios por fábrica, estado e mês, com composição de custos e volume comprado.",
 
         footer_text:
             "© Copyright João Vitor Franco Geraldo. All Rights Reserved"
@@ -206,7 +206,7 @@ const translations = {
         proj_tit3: "Eletronic Company Analysis",
         proj_tex3: "Electronics retail: revenue, profit, margin, customers and return rate by product, store and country.",
         proj_tit4: "Mining Analysis",
-        proj_tex4: "This analysis aims to highlight the results of each mineral in different regions of Brazil, along with their respective costs and prices.",
+        proj_tex4: "Cost, revenue and profit of 14 minerals by plant, state and month, with cost breakdown and purchased volume.",
 
         footer_text:
             "© Copyright João Vitor Franco Geraldo. All Rights Reserved"
