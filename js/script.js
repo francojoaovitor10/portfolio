@@ -127,8 +127,8 @@ const translations = {
         proj_tex1: "O relatório analisa a quantidade de vendas e o status de atingimento de meta de uma loja de tênis.",
         proj_tit2: "Análise de Presença e Volume",
         proj_tex2: "Esse dashboard compara a presença de SKU's e seu volume vendido em diversas regiões.",
-        proj_tit3: "Análise de desempenho SKU",
-        proj_tex3: "Essa análise tem como objetivo evidenciar os resultados de vendas, custo e lucro que cada produto gera para a empresa.",
+        proj_tit3: "Análise Eletronic Company",
+        proj_tex3: "Varejo de eletrônicos: faturamento, lucro, margem, clientes e taxa de devolução por produto, loja e país.",
         proj_tit4: "Análise Mineiradora",
         proj_tex4: "Essa análise tem como objetivo evidenciar os resultados de cada minério em distintas regiões do Brasil e seus respectivos custos e preços.",
 
@@ -203,8 +203,8 @@ const translations = {
         proj_tex1: "The report analyzes the sales volume and target achievement status of a sneaker store.",
         proj_tit2: "Analysis of Presence and Volume",
         proj_tex2: "This dashboard compares the presence of SKUs and their sales volume across various regions.",
-        proj_tit3: "SKU Performance Analysis",
-        proj_tex3: "This analysis aims to highlight the sales, cost, and profit results that each product generates for the company.",
+        proj_tit3: "Eletronic Company Analysis",
+        proj_tex3: "Electronics retail: revenue, profit, margin, customers and return rate by product, store and country.",
         proj_tit4: "Mining Analysis",
         proj_tex4: "This analysis aims to highlight the results of each mineral in different regions of Brazil, along with their respective costs and prices.",
 
