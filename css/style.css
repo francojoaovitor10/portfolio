@@ -311,7 +311,9 @@ span {
 
 .card img {
     cursor: pointer;
-    max-height: 145px;
+    height: 145px;
+    object-fit: cover;
+    object-position: top;
 }
 
 .card:hover {
