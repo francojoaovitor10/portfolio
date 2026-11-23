@@ -77,7 +77,11 @@ const translations = {
 
         about_title: "SOBRE MIM",
         about_text:
-            "Sempre tive facilidade com números. Ao conhecer a área de dados e entender seu impacto nas decisões e nos resultados, encontrei um campo com o qual me identifiquei naturalmente.",
+            "Moro em Uberlândia (MG) e sempre tive facilidade com números, mas o que realmente me move é a curiosidade de entender o porquê por trás de cada resultado. Foi isso que me levou à área de dados e à escolha da graduação em Ciência de Dados: eu queria ir além dos números e aprender a transformá-los em decisões. No curso, ganhei base em Python, Pandas e NumPy e um olhar mais estruturado para tratar, analisar e interpretar dados.",
+        about_text2:
+            "Levo isso para o dia a dia profissional. Na Heineken Brasil, transformei dados de vendas em indicadores que orientavam metas e estratégias comerciais; hoje, na ValeCard, estruturo soluções de BI que dão visibilidade à operação de Inside Sales e apoiam as decisões das lideranças.",
+        about_text3:
+            "Gosto de unir técnica e comunicação: tratar e modelar dados com SQL, Python e Power BI e, no fim, explicar de forma simples o que eles mostram para quem precisa decidir. Valorizo a organização e o aprendizado contínuo, e encaro cada nova pergunta de negócio como uma chance de evoluir.",
 
         exp_title: "EXPERIÊNCIAS",
         exp_subtitle: "Minha trajetória profissional",
@@ -153,7 +157,11 @@ const translations = {
 
         about_title: "ABOUT ME",
         about_text:
-            "I have always had an affinity with numbers. When I discovered the data field and understood its impact on decision-making and results, I naturally identified with it.",
+            "I live in Uberlândia, Brazil, and I have always had a knack for numbers, but what really drives me is the curiosity to understand the why behind every result. That is what led me to the data field and to a degree in Data Science: I wanted to go beyond the numbers and learn how to turn them into decisions. Along the way, I built a foundation in Python, Pandas and NumPy and a more structured way to clean, analyze and interpret data.",
+        about_text2:
+            "I bring that into my daily work. At Heineken Brasil, I turned sales data into indicators that guided targets and sales strategies; today, at ValeCard, I build BI solutions that give visibility into the Inside Sales operation and support leadership decisions.",
+        about_text3:
+            "I enjoy combining technical skills with communication: cleaning and modeling data with SQL, Python and Power BI, and then explaining in simple terms what it shows to those who need to decide. I value organization and continuous learning, and I see every new business question as a chance to grow.",
 
         exp_title: "EXPERIENCE",
         exp_subtitle: "My professional journey",
