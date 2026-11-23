@@ -129,7 +129,7 @@ const translations = {
         proj_tex2: "Presença e share de 7 marcas de cerveja em 10 mil PDVs, com lacunas de distribuição por canal, estado e vendedor.",
         proj_tit3: "Análise Eletronic Company",
         proj_tex3: "Varejo de eletrônicos: faturamento, lucro, margem, clientes e taxa de devolução por produto, loja e país.",
-        proj_tit4: "Análise Mineiradora",
+        proj_tit4: "Análise Mineradora",
         proj_tex4: "Custo, faturamento e lucro de 14 minérios por fábrica, estado e mês, com composição de custos e volume comprado.",
 
         footer_text:
