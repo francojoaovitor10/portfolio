@@ -189,6 +189,94 @@ span {
     transform: translateY(-2px);
 }
 
+.exp-card {
+    border-left: 3px solid var(--bs-primary);
+}
+
+.exp-company {
+    font-size: 1rem;
+    color: var(--second-text-color);
+}
+
+.exp-date {
+    font-size: .9rem;
+    color: var(--second-text-color);
+    white-space: nowrap;
+}
+
+.exp-list {
+    padding-left: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: .95rem;
+    color: var(--second-text-color);
+}
+
+.exp-list li {
+    margin-bottom: .5rem;
+    line-height: 1.55;
+}
+
+.exp-list li:last-child {
+    margin-bottom: 0;
+}
+
+.exp-list li::marker {
+    color: var(--bs-primary);
+}
+
+.exp-results {
+    padding: 1.1rem 1.25rem;
+    background-color: rgba(13, 110, 253, .08);
+    border: 1px solid rgba(13, 110, 253, .25);
+    border-radius: 8px;
+}
+
+.exp-results-title {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    margin-bottom: .75rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: #6ea8fe;
+}
+
+.exp-results-title i {
+    font-size: 1.2rem;
+}
+
+.exp-results-list {
+    padding-left: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: .95rem;
+    line-height: 1.55;
+}
+
+.exp-results-list li {
+    margin-bottom: .6rem;
+}
+
+.exp-results-list li:last-child {
+    margin-bottom: 0;
+}
+
+.exp-results-list li::marker {
+    color: #6ea8fe;
+}
+
+.exp-results-list strong {
+    display: block;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.exp-results-list em {
+    font-style: normal;
+    color: var(--second-text-color);
+}
+
 .link-external {
     width: 60px;
 }
