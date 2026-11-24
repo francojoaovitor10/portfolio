@@ -77,11 +77,15 @@ const translations = {
 
         about_title: "SOBRE MIM",
         about_text:
-            "Sempre tive facilidade com números, mas o que realmente me move é a curiosidade de entender o porquê por trás de cada resultado. Foi isso que me levou à área de dados e à escolha da graduação em Ciência de Dados: eu queria ir além dos números e aprender a transformá-los em decisões. No curso, ganhei base em Python, Pandas e NumPy e um olhar mais estruturado para tratar, analisar e interpretar dados.",
+            "Sou um profissional movido pela curiosidade, pelo pensamento analítico e pela busca constante por conhecimento. Tenho interesse em compreender cenários, investigar problemas e identificar oportunidades, sempre buscando enxergar além das informações superficiais. Acredito que a combinação entre raciocínio lógico, senso crítico e capacidade de aprendizado é fundamental para transformar desafios em soluções relevantes.",
         about_text2:
-            "Levo isso para o dia a dia profissional. Já transformei dados de vendas em indicadores que orientavam metas e estratégias comerciais e, hoje, estruturo soluções de BI que dão visibilidade à operação de Inside Sales e apoiam as decisões das lideranças.",
+            "Encontrei na área de dados uma oportunidade de conectar essas características à resolução de problemas e à geração de valor para os negócios. Minha escolha pela Ciência de Dados surgiu do interesse pela integração entre tecnologia, análise e estratégia, além da possibilidade de transformar grandes volumes de informação em conhecimento capaz de orientar decisões e revelar novas perspectivas.",
         about_text3:
-            "Gosto de unir técnica e comunicação: tratar e modelar dados com SQL, Python e Power BI e, no fim, explicar de forma simples o que eles mostram para quem precisa decidir. Valorizo a organização e o aprendizado contínuo, e encaro cada nova pergunta de negócio como uma chance de evoluir.",
+            "Ao longo da minha trajetória, desenvolvi uma compreensão de que a inteligência analítica vai muito além da interpretação de números. Envolve qualidade e consistência dos dados, estruturação da informação, identificação de padrões, análise de indicadores e, principalmente, a capacidade de conectar resultados ao contexto estratégico das organizações. Nesse sentido, valorizo conceitos como Business Intelligence, Data Analytics e Data Storytelling, entendendo que a verdadeira força de uma análise está na sua capacidade de comunicar descobertas e gerar direcionamentos.",
+        about_text4:
+            "Procuro levar para minha atuação profissional características que também fazem parte da minha personalidade: curiosidade para investigar, pensamento crítico para questionar, organização para estruturar ideias e iniciativa para buscar soluções. Valorizo o trabalho colaborativo, a comunicação clara e a capacidade de compreender diferentes perspectivas, pois acredito que resultados consistentes são construídos pela combinação entre conhecimento técnico e compreensão humana.",
+        about_text5:
+            "Mantenho uma postura orientada à evolução contínua, buscando ampliar meus conhecimentos, acompanhar a transformação da área de tecnologia e desenvolver uma visão cada vez mais abrangente sobre dados e negócios. Meu objetivo é construir uma trajetória na qual a capacidade analítica esteja sempre acompanhada de propósito, contribuindo para decisões mais inteligentes, processos mais eficientes e resultados que realmente façam a diferença.",
 
         exp_title: "EXPERIÊNCIAS",
         exp_subtitle: "Minha trajetória profissional",
@@ -157,11 +161,15 @@ const translations = {
 
         about_title: "ABOUT ME",
         about_text:
-            "I have always had a knack for numbers, but what really drives me is the curiosity to understand the why behind every result. That is what led me to the data field and to a degree in Data Science: I wanted to go beyond the numbers and learn how to turn them into decisions. Along the way, I built a foundation in Python, Pandas and NumPy and a more structured way to clean, analyze and interpret data.",
+            "I am a professional driven by curiosity, analytical thinking and a constant pursuit of knowledge. I am interested in understanding scenarios, investigating problems and identifying opportunities, always looking beyond surface-level information. I believe that combining logical reasoning, critical thinking and the ability to learn is essential to turn challenges into meaningful solutions.",
         about_text2:
-            "I bring that into my daily work. I have turned sales data into indicators that guided targets and sales strategies and, today, I build BI solutions that give visibility into the Inside Sales operation and support leadership decisions.",
+            "In the data field, I found an opportunity to connect these traits to problem solving and to creating value for businesses. My choice of Data Science came from my interest in bringing together technology, analysis and strategy, and from the possibility of turning large volumes of information into knowledge that guides decisions and reveals new perspectives.",
         about_text3:
-            "I enjoy combining technical skills with communication: cleaning and modeling data with SQL, Python and Power BI, and then explaining in simple terms what it shows to those who need to decide. I value organization and continuous learning, and I see every new business question as a chance to grow.",
+            "Throughout my journey, I have come to understand that analytical intelligence goes far beyond interpreting numbers. It involves data quality and consistency, structuring information, identifying patterns, analyzing indicators and, above all, the ability to connect results to the strategic context of organizations. In this sense, I value concepts such as Business Intelligence, Data Analytics and Data Storytelling, understanding that the true strength of an analysis lies in its ability to communicate findings and provide direction.",
+        about_text4:
+            "I bring to my work traits that are also part of my personality: curiosity to investigate, critical thinking to question, organization to structure ideas and initiative to find solutions. I value teamwork, clear communication and the ability to understand different perspectives, because I believe consistent results are built by combining technical knowledge with human understanding.",
+        about_text5:
+            "I keep a mindset focused on continuous growth, seeking to broaden my knowledge, keep up with the transformation of the technology field and develop an increasingly comprehensive view of data and business. My goal is to build a career in which analytical skills always go hand in hand with purpose, contributing to smarter decisions, more efficient processes and results that truly make a difference.",
 
         exp_title: "EXPERIENCE",
         exp_subtitle: "My professional journey",
