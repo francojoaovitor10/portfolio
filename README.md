@@ -8,7 +8,7 @@ Link: [portfolio](https://francojoaovitor19.github.io/portfolio)
 
 Caso queira discutir um projeto, colaborar ou apenas conversar, sinta-se à vontade para me contatar!
 
-- [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-vitor-franco-geraldo-9995a53a2/)
+- [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-vitor-franco/)
 - Email: francojoaovitor19@gmail.com
 
 ---
