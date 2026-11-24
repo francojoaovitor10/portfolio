@@ -159,11 +159,11 @@ span {
 
 #about-image {
     max-width: 430px;
-    height: 100%;
-    min-height: 600px;
+    height: 600px;
     width: 100%;
     object-fit: cover;
-    object-position: center bottom;
+    align-self: center;
+    margin-bottom: 84px; /* compensa o botão do LinkedIn: centro alinhado ao texto */
     border-radius: 10px;
     box-shadow: var(--main-color) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
