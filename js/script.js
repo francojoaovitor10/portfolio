@@ -125,8 +125,8 @@ const translations = {
         skills_group_web: "Desenvolvimento Web",
 
         projects_title: "PROJETOS",
-        proj_tit1: "Análise de Vendas",
-        proj_tex1: "O relatório analisa a quantidade de vendas e o status de atingimento de meta de uma loja de tênis.",
+        proj_tit1: "Análise People Analytics",
+        proj_tex1: "Recrutamento e seleção: funil de candidatos por vaga, entrevistas por recrutador e atingimento de metas mensais.",
         proj_tit2: "Análise de Presença e Volume",
         proj_tex2: "Presença e share de 7 marcas de cerveja em 10 mil PDVs, com lacunas de distribuição por canal, estado e vendedor.",
         proj_tit3: "Análise Eletronic Company",
@@ -203,8 +203,8 @@ const translations = {
         skills_group_web: "Web Development",
 
         projects_title: "PROJECTS",
-        proj_tit1: "Sales Analysis",
-        proj_tex1: "The report analyzes the sales volume and target achievement status of a sneaker store.",
+        proj_tit1: "People Analytics Analysis",
+        proj_tex1: "Recruitment and hiring: candidate funnel by job opening, interviews per recruiter and monthly target achievement.",
         proj_tit2: "Analysis of Presence and Volume",
         proj_tex2: "Presence and share of 7 beer brands across 10,000 points of sale, with distribution gaps by channel, state and sales rep.",
         proj_tit3: "Eletronic Company Analysis",
