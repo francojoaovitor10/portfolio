@@ -80,8 +80,6 @@ const translations = {
             "Sou um profissional movido pela curiosidade, pelo pensamento analítico e pela busca constante por conhecimento. Tenho interesse em compreender cenários, investigar problemas e identificar oportunidades, buscando sempre enxergar além das informações superficiais. Encontrei na área de dados uma forma de conectar essas características à resolução de problemas e à geração de valor, o que motivou minha escolha pela Ciência de Dados e pelo potencial de unir tecnologia, análise e estratégia.",
         about_text2:
             "Ao longo da minha trajetória, desenvolvi uma visão de que a inteligência analítica vai muito além da interpretação de números. Envolve compreender contextos, garantir a qualidade das informações, identificar padrões e transformar dados em conhecimento capaz de orientar decisões. Tenho especial interesse na conexão entre Business Intelligence, Data Analytics e estratégia de negócio, pois acredito que o verdadeiro valor dos dados está na capacidade de revelar oportunidades, gerar insights e contribuir para resultados mais consistentes.",
-        about_text3:
-            "Levo para minha atuação profissional características que também fazem parte da minha personalidade: curiosidade para investigar, pensamento crítico para questionar, iniciativa para buscar soluções e disposição para aprender continuamente. Valorizo a comunicação, o trabalho colaborativo e a compreensão de diferentes perspectivas, pois acredito que bons resultados surgem da combinação entre conhecimento técnico e visão humana. Busco construir uma trajetória pautada pela evolução constante, contribuindo para decisões mais inteligentes e soluções que gerem impacto real para os negócios.",
 
         exp_title: "EXPERIÊNCIAS",
         exp_subtitle: "Minha trajetória profissional",
@@ -160,8 +158,6 @@ const translations = {
             "I am a professional driven by curiosity, analytical thinking and a constant pursuit of knowledge. I am interested in understanding scenarios, investigating problems and identifying opportunities, always seeking to see beyond surface-level information. In the data field, I found a way to connect these traits to problem-solving and value creation, which motivated my choice of Data Science and its potential to bring together technology, analysis and strategy.",
         about_text2:
             "Throughout my journey, I have come to see that analytical intelligence goes far beyond interpreting numbers. It involves understanding context, ensuring information quality, identifying patterns and turning data into knowledge that can guide decisions. I am especially interested in the connection between Business Intelligence, Data Analytics and business strategy, because I believe the true value of data lies in its ability to reveal opportunities, generate insights and contribute to more consistent results.",
-        about_text3:
-            "I bring to my work traits that are also part of my personality: curiosity to investigate, critical thinking to question, initiative to find solutions and a willingness to keep learning. I value communication, teamwork and understanding different perspectives, because I believe good results come from combining technical knowledge with a human perspective. I aim to build a career grounded in constant growth, contributing to smarter decisions and solutions that create real impact for the business.",
 
         exp_title: "EXPERIENCE",
         exp_subtitle: "My professional journey",
