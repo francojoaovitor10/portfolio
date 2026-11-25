@@ -135,6 +135,51 @@ span {
     transform: scale(0.9);
 }
 
+/* botão do LinkedIn e lista de contato com a mesma altura (51px):
+   topo do ícone do telefone = topo do botão, base do ícone do e-mail = base do botão */
+.about-contact .btn-socials span i {
+    display: block;
+    line-height: 1;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 57px; /* compensa a folga interna dos glifos do telefone e do envelope */
+    position: relative;
+    top: 1.5px;
+    margin: 0 0 0 6px;
+    padding: 0;
+    list-style: none;
+}
+
+.contact-list li {
+    line-height: 1;
+}
+
+.contact-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: .95rem;
+    line-height: 1;
+    color: var(--second-text-color);
+    transition: color .3s ease;
+}
+
+.contact-item i {
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+    color: #6ea8fe;
+}
+
+.contact-item:hover {
+    color: var(--text-color);
+}
+
 .btn-play-text {
     display: flex;
     align-items: center;
