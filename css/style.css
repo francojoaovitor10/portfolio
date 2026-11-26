@@ -372,6 +372,155 @@ span {
     transform: translateY(-4px);
 }
 
+/* =========================
+   CARDS DE PROJETO: visual da proposta Tech / Analytics Lab
+   Só aparência; largura, altura, espaçamentos e tamanhos de fonte seguem os cards originais.
+========================= */
+.proj {
+    --proj-bg: #0f151d;
+    --proj-line: #1f2935;
+    --proj-line-hover: #2c3a4a;
+    --proj-text: #d6dee8;
+    --proj-soft: #b8c4d2;
+    --proj-muted: #7d8a9a;
+    --proj-cyan: #38d6e5;
+    --proj-lime: #b5f23d;
+    position: relative;
+    overflow: hidden;
+    background-color: var(--proj-bg) !important;
+    border-color: var(--proj-line);
+    border-radius: 14px;
+    transition: transform .3s, border-color .3s;
+}
+
+.proj::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    background: radial-gradient(400px circle at var(--mx, 50%) var(--my, 0%), rgba(56, 214, 229, .12), transparent 45%);
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.proj:hover {
+    border-color: var(--proj-line-hover);
+}
+
+.proj:hover::after {
+    opacity: 1;
+}
+
+.proj-img {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+/* linha divisória desenhada por cima da imagem, sem somar altura */
+.proj-img::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    border-bottom: 1px solid var(--proj-line);
+}
+
+.proj-img img {
+    transition: transform .6s;
+}
+
+.proj:hover .proj-img img {
+    transform: scale(1.04);
+}
+
+.proj-img img[src*="people-analytics"] {
+    object-position: center 60%;
+}
+
+/* selo sobre a imagem: não ocupa espaço no card */
+.proj-badge {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    z-index: 2;
+    display: flex;
+    gap: 8px;
+    padding: 3px 8px;
+    border: 1px solid var(--proj-line);
+    border-radius: 6px;
+    background: rgba(10, 14, 20, .86);
+    color: var(--proj-muted);
+    font: 400 .7rem 'JetBrains Mono', ui-monospace, monospace;
+}
+
+.proj-badge b {
+    font-weight: 400;
+    color: var(--proj-lime);
+}
+
+.proj .card-title {
+    color: var(--proj-text);
+}
+
+.proj .card-text {
+    color: var(--proj-soft);
+}
+
+/* ferramentas usadas na análise */
+.proj-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 0 0 1rem;
+    padding: 0;
+    list-style: none;
+}
+
+.proj-tags li {
+    padding: 2px 8px;
+    border: 1px solid rgba(56, 214, 229, .25);
+    border-radius: 6px;
+    font: 400 .72rem 'JetBrains Mono', ui-monospace, monospace;
+    color: var(--proj-cyan);
+    transition: background .2s, border-color .2s;
+}
+
+.proj:hover .proj-tags li {
+    border-color: rgba(56, 214, 229, .45);
+    background: rgba(56, 214, 229, .06);
+}
+
+.proj-run {
+    background: var(--proj-lime);
+    border-color: var(--proj-lime);
+    color: #0a0e14;
+    transition: transform .2s, box-shadow .2s;
+}
+
+.proj-run:hover,
+.proj-run:focus {
+    background: var(--proj-lime);
+    color: #0a0e14;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px -8px rgba(181, 242, 61, .7);
+}
+
+.proj-run:focus-visible,
+.proj-img:focus-visible {
+    outline: 2px solid var(--proj-cyan);
+    outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .proj, .proj::after, .proj-img img, .proj-run {
+        transition: none;
+    }
+}
+
 footer {
     color: var(--second-text-color);
     background-color: var(--second-bg-color);

@@ -133,6 +133,7 @@ const translations = {
         proj_tex3: "Varejo de eletrônicos: faturamento, lucro, margem, clientes e taxa de devolução por produto, loja e país.",
         proj_tit4: "Análise Mineradora",
         proj_tex4: "Custo, faturamento e lucro de 14 minérios por fábrica, estado e mês, com composição de custos e volume comprado.",
+        proj_published: "● publicado",
 
         footer_text:
             "© Copyright João Vitor Franco Geraldo. All Rights Reserved"
@@ -211,6 +212,7 @@ const translations = {
         proj_tex3: "Electronics retail: revenue, profit, margin, customers and return rate by product, store and country.",
         proj_tit4: "Mining Analysis",
         proj_tex4: "Cost, revenue and profit of 14 minerals by plant, state and month, with cost breakdown and purchased volume.",
+        proj_published: "● published",
 
         footer_text:
             "© Copyright João Vitor Franco Geraldo. All Rights Reserved"
@@ -245,3 +247,14 @@ languageToggle.addEventListener("click", () => {
    INICIALIZAÇÃO
 ========================= */
 translatePage(currentLanguage);
+
+/* =========================
+   CARDS DE PROJETO: BRILHO QUE SEGUE O CURSOR
+========================= */
+document.querySelectorAll(".proj").forEach(card => {
+    card.addEventListener("pointermove", e => {
+        const r = card.getBoundingClientRect();
+        card.style.setProperty("--mx", `${e.clientX - r.left}px`);
+        card.style.setProperty("--my", `${e.clientY - r.top}px`);
+    });
+});

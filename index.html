@@ -5,6 +5,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap">
         <link rel="stylesheet" href="css/style.css">
         <link rel="icon" href="favicon/favicon.png" type="image/png" />
         <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
@@ -259,54 +262,58 @@
         <!-- PROJETOS -->
         <section id="projects" class="container-fluid second-bg-color">
             <div class="container py-5">
-                <h2 class="text-center">PROJETOS</h2>
+                <h2 class="text-center" data-translate="projects_title">PROJETOS</h2>
                 <div class="row row-cols-1 row-cols-md-4 g-4 mt-3 d-flex justify-content-center">
                     <div class="col">
-                        <div class="card h-100 text-bg-dark">
-                            <a href="https://app.powerbi.com/view?r=eyJrIjoiMDQ5M2E4MTEtZDlhZS00Mzg0LWI1YTQtMDIzMzMyMmJjNzMxIiwidCI6ImNkNWU2ZDIzLWNiOTktNDE4OS04OGFiLTFhOTAyMWEwYzQ1MSJ9&amp;pageName=inicio" target="_blank"><img src="img/project-mineradora.png" class="card-img-top" alt="Dashboard Análise de Minérios - visão geral"></a>
+                        <div class="card h-100 text-bg-dark proj">
+                            <a class="proj-img" href="https://app.powerbi.com/view?r=eyJrIjoiMDQ5M2E4MTEtZDlhZS00Mzg0LWI1YTQtMDIzMzMyMmJjNzMxIiwidCI6ImNkNWU2ZDIzLWNiOTktNDE4OS04OGFiLTFhOTAyMWEwYzQ1MSJ9&amp;pageName=inicio" target="_blank" rel="noopener"><img src="img/project-mineradora.png" class="card-img-top" alt="Dashboard Análise de Minérios - visão geral"><span class="proj-badge">mineradora.pbip <b data-translate="proj_published">● publicado</b></span></a>
                             <div class="card-body">
                                 <h5 class="card-title" data-translate="proj_tit4">Análise Mineradora</h5>
                                 <p class="card-text" data-translate="proj_tex4">Custo, faturamento e lucro de 14 minérios por fábrica, estado e mês, com composição de custos e volume comprado.</p>
-                                <a href="https://app.powerbi.com/view?r=eyJrIjoiMDQ5M2E4MTEtZDlhZS00Mzg0LWI1YTQtMDIzMzMyMmJjNzMxIiwidCI6ImNkNWU2ZDIzLWNiOTktNDE4OS04OGFiLTFhOTAyMWEwYzQ1MSJ9&amp;pageName=inicio" class="btn btn-primary link-external" target="_blank"><i
+                                <ul class="proj-tags" aria-label="Ferramentas"><li>Power BI</li><li>DAX</li><li>HTML Content</li></ul>
+                                <a href="https://app.powerbi.com/view?r=eyJrIjoiMDQ5M2E4MTEtZDlhZS00Mzg0LWI1YTQtMDIzMzMyMmJjNzMxIiwidCI6ImNkNWU2ZDIzLWNiOTktNDE4OS04OGFiLTFhOTAyMWEwYzQ1MSJ9&amp;pageName=inicio" class="btn link-external proj-run" target="_blank" rel="noopener" aria-label="Abrir dashboard"><i
                                         class="bx bx-link-external"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 text-bg-dark">
-                            <a href="https://francojoaovitor10.github.io/People_Analytics/"
-                                target="_blank"><img src="img/project-people-analytics.png" class="card-img-top" alt="Dashboard People Analytics - Atração de Talentos, tela inicial"></a>
+                        <div class="card h-100 text-bg-dark proj">
+                            <a class="proj-img" href="https://francojoaovitor10.github.io/People_Analytics/"
+                                target="_blank" rel="noopener"><img src="img/project-people-analytics.png" class="card-img-top" alt="Dashboard People Analytics - Atração de Talentos, tela inicial"><span class="proj-badge">atracao_talentos.html <b data-translate="proj_published">● publicado</b></span></a>
                             <div class="card-body">
                                 <h5 class="card-title" data-translate="proj_tit1">Análise People Analytics</h5>
                                 <p class="card-text" data-translate="proj_tex1">Recrutamento e seleção: funil de candidatos por vaga, entrevistas por recrutador e atingimento de metas mensais.</p>
+                                <ul class="proj-tags" aria-label="Ferramentas"><li>JavaScript</li><li>CSS</li><li>GitHub Pages</li></ul>
                                 <a href="https://francojoaovitor10.github.io/People_Analytics/"
-                                    class="btn btn-primary link-external" target="_blank"><i
+                                    class="btn link-external proj-run" target="_blank" rel="noopener" aria-label="Abrir dashboard"><i
                                         class="bx bx-link-external"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 text-bg-dark">
-                            <a href="https://app.powerbi.com/view?r=eyJrIjoiNjFjMTE1NWQtYjYwMS00NmM5LWI3NjktZDI1ZjAyNDgzNDYwIiwidCI6ImNkNWU2ZDIzLWNiOTktNDE4OS04OGFiLTFhOTAyMWEwYzQ1MSJ9"
-                                target="_blank"><img src="img/project-presenca.png" class="card-img-top" alt="Dashboard Presença e Volume de Marcas - Visão Executiva"></a>
+                        <div class="card h-100 text-bg-dark proj">
+                            <a class="proj-img" href="https://app.powerbi.com/view?r=eyJrIjoiNjFjMTE1NWQtYjYwMS00NmM5LWI3NjktZDI1ZjAyNDgzNDYwIiwidCI6ImNkNWU2ZDIzLWNiOTktNDE4OS04OGFiLTFhOTAyMWEwYzQ1MSJ9"
+                                target="_blank" rel="noopener"><img src="img/project-presenca.png" class="card-img-top" alt="Dashboard Presença e Volume de Marcas - Visão Executiva"><span class="proj-badge">presenca_volume.pbip <b data-translate="proj_published">● publicado</b></span></a>
                             <div class="card-body">
                                 <h5 class="card-title" data-translate="proj_tit2">Análise de Presença e Volume</h5>
                                 <p class="card-text" data-translate="proj_tex2">Presença e share de 7 marcas de cerveja em 10 mil PDVs, com lacunas de distribuição por canal, estado e vendedor.</p>
+                                <ul class="proj-tags" aria-label="Ferramentas"><li>Power BI</li><li>DAX</li><li>HTML Content</li><li>Python</li></ul>
                                 <a href="https://app.powerbi.com/view?r=eyJrIjoiNjFjMTE1NWQtYjYwMS00NmM5LWI3NjktZDI1ZjAyNDgzNDYwIiwidCI6ImNkNWU2ZDIzLWNiOTktNDE4OS04OGFiLTFhOTAyMWEwYzQ1MSJ9"
-                                    class="btn btn-primary link-external" target="_blank"><i
+                                    class="btn link-external proj-run" target="_blank" rel="noopener" aria-label="Abrir dashboard"><i
                                         class="bx bx-link-external"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 text-bg-dark">
-                            <a href="https://app.powerbi.com/view?r=eyJrIjoiOWJkODM3YTAtMDk4NC00NmFhLWJmYTAtYjBmMTZkOTUwYmQyIiwidCI6ImNkNWU2ZDIzLWNiOTktNDE4OS04OGFiLTFhOTAyMWEwYzQ1MSJ9&pageName=b637979d8eff1dbe"
-                                target="_blank"><img src="img/project-eletronic.png" class="card-img-top" alt="Dashboard Eletronic Company - Visão Executiva"></a>
+                        <div class="card h-100 text-bg-dark proj">
+                            <a class="proj-img" href="https://app.powerbi.com/view?r=eyJrIjoiOWJkODM3YTAtMDk4NC00NmFhLWJmYTAtYjBmMTZkOTUwYmQyIiwidCI6ImNkNWU2ZDIzLWNiOTktNDE4OS04OGFiLTFhOTAyMWEwYzQ1MSJ9&pageName=b637979d8eff1dbe"
+                                target="_blank" rel="noopener"><img src="img/project-eletronic.png" class="card-img-top" alt="Dashboard Eletronic Company - Visão Executiva"><span class="proj-badge">eletronic_company.pbip <b data-translate="proj_published">● publicado</b></span></a>
                             <div class="card-body">
                                 <h5 class="card-title" data-translate="proj_tit3">Análise Eletronic Company</h5>
                                 <p class="card-text" data-translate="proj_tex3">Varejo de eletrônicos: faturamento, lucro, margem, clientes e taxa de devolução por produto, loja e país.</p>
+                                <ul class="proj-tags" aria-label="Ferramentas"><li>Power BI</li><li>DAX</li><li>TMDL</li></ul>
                                 <a href="https://app.powerbi.com/view?r=eyJrIjoiOWJkODM3YTAtMDk4NC00NmFhLWJmYTAtYjBmMTZkOTUwYmQyIiwidCI6ImNkNWU2ZDIzLWNiOTktNDE4OS04OGFiLTFhOTAyMWEwYzQ1MSJ9&pageName=b637979d8eff1dbe"
-                                    target="_blank" class="btn btn-primary link-external"><i
+                                    target="_blank" rel="noopener" aria-label="Abrir dashboard" class="btn link-external proj-run"><i
                                         class="bx bx-link-external"></i></a>
                             </div>
                         </div>
